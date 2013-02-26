@@ -1,0 +1,124 @@
+/* 
+    Document   : style
+    Created on : 05-dic-2012, 23:25:26
+    Author     : javier
+    Description:
+        Purpose of the stylesheet follows.
+
+*/
+
+#content{
+    background: #F8F8F8;
+    border: 2px solid;
+    border-color: #CCC;
+    width: 390px;
+    padding-bottom: 12px;
+}
+
+#title{
+    border-bottom: 2px solid;
+    border-color: #CCC;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+}
+#button{
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid gainsboro;
+    display: inline-block;
+    color: #FFF;
+    font-family: arial;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    
+    background:#1093FA;
+    margin-left: 13px;
+}
+form {
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+form input{
+    padding: 5px 14px;
+    margin-top: 15px;
+    width: 230px;
+}
+.list-box .first-item{
+    font-family: arial;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 91%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+   
+}
+.list-box .item{
+    font-family: arial;
+    font-size: 18px;
+    margin-left: 10px;
+    width: 91%;
+    border-bottom: 1px solid;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 10px; 
+}
+.list-box .selected{
+    background: #E9E9E9;
+}
+.list-box .line{
+    height: 1px;
+    background: #000;
+    width: 93%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.list-box .no-item{
+    text-align: center;
+}
+.list-box .no-item p{
+    color: #F3F3F3;
+    text-shadow: black 0.1em 0.1em -0.8em;
+}
+
+.remove{
+    float: right;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid gainsboro;
+    display: inline-block;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    padding: 0px 3px;
+    text-decoration: none;
+    background: #9C9C9C;
+    margin-left: 13px;
+    margin-bottom: 5px;
+}
+
+
+.remove-hover{
+    float: right;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid gainsboro;
+    display: inline-block;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    padding: 0px 3px;
+    text-decoration: none;
+    background: rgb(250, 16, 16);
+    margin-left: 13px;
+    margin-bottom: 5px;
+}
+
